@@ -1,0 +1,22 @@
+[
+    {
+        "nome": "Vela",
+        "preco": 4.8,
+        "quantidade": 14
+    },
+    {
+        "nome": "Tomate",
+        "preco": 3.5,
+        "quantidade": 154
+    },
+    {
+        "nome": "Manjericão",
+        "preco": 8.5,
+        "quantidade": 112
+    },
+    {
+        "nome": "Detergente",
+        "preco": 0.5,
+        "quantidade": 200
+    }
+]

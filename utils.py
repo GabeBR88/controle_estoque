@@ -8,10 +8,9 @@ def salvar_json(arquivo: str, dados: Any) -> None:
 
 
 def carregar_json(arquivo: str) -> Any:
-    """Carrega os dados de um arquivo JSON (ou retorna {} se não existir)."""
-    try: 
+    """Carrega os dados de um arquivo JSON (ou retorna [] se não existir ou estiver vazio)."""
+    try:
         with open(arquivo, 'r', encoding='utf-8') as f:
             return json.load(f)
-    except FileNotFoundError:
-        return {}
-    
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []  # ← aqui está o segredo!
