@@ -14,6 +14,6 @@ class Produto:
     
 
     def __str__(self):
-        return f"Nome: {self.nome} - Preço: R${self.preco:.2f} - Quantidade: {self.quantidade}"
+        return f"Produto: {self.nome} - R${self.preco} - Quantidade: {self.quantidade} - Salvo com sucesso!"
     
 

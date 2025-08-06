@@ -18,5 +18,10 @@
         "nome": "Detergente",
         "preco": 0.5,
         "quantidade": 200
+    },
+    {
+        "nome": "Pelúcula - Motorola Edge 20",
+        "preco": 5.54,
+        "quantidade": 55
     }
 ]

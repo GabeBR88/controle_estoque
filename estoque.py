@@ -11,7 +11,7 @@ class Estoque:
 
 
     def adicionar_produto(self, produto: Produto):
-        dados = carregar_json(str(path))  # Agora sempre retorna lista
+        dados = carregar_json(str(path)) 
         dados.append(produto.to_dict())
         salvar_json(str(path), dados)
 
