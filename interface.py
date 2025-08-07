@@ -21,7 +21,7 @@ tabs.pack()
 
 tabs.add("Cadastrar Produtos")
 tabs.add("Acessar Estoque")
-
+tabs.add("Sobre")
 
 # Aba de cadastro
 aba_cadastrar = tabs.tab("Cadastrar Produtos")

@@ -33,5 +33,10 @@
         "nome": "Agulha De Crochê",
         "preco": 5.55,
         "quantidade": 26
+    },
+    {
+        "nome": "Caneta Bic",
+        "preco": 0.45,
+        "quantidade": 15
     }
 ]
