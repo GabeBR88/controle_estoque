@@ -96,6 +96,26 @@ entry_quantidade.grid(row=2, column=1, padx=10, pady=5)
 button_enviar = ctk.CTkButton(master=tabs.tab("Cadastrar Produtos"), command=coletar_produto, text="Salvar").pack()
 
 
+# Conteúdo da aba "Sobre"
+texto_sobre = (
+    "📦 Sistema Controle de Estoque v1.0\n\n"
+    "Desenvolvido por: Gabriel Brito\n"
+    "Versão: 1.0\n"
+    "Data: Agosto/2025\n\n"
+    "Este sistema permite gerenciar o estoque de produtos\n"
+    "de forma simples e eficiente, com interface moderna.\n\n"
+    "Tecnologias usadas:\n"
+    "- Python\n"
+    "- CustomTkinter\n"
+    "- JSON para armazenamento"
+)
+
+label_sobre = ctk.CTkLabel(tabs.tab("Sobre"), text=texto_sobre, justify="left", font=ctk.CTkFont(size=14))
+label_sobre.pack(padx=20, pady=20, anchor="center")
+
+
+
+
 
 
 janela.mainloop()
