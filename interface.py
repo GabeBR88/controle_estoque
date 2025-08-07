@@ -55,7 +55,7 @@ def coletar_produto():
                 campo.delete(0, ctk.END)
 
             # Mostrar mensagem de sucesso
-            mensagem_sucesso_label.configure(text=str(produto))
+            mensagem_sucesso_label.configure(text="- Último produto cadastrado -\n" + str(produto))
             mensagem_falha_label.configure(text="")  # Limpa mensagem anterior
 
     except ValueError:

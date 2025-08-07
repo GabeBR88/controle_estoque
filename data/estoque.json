@@ -23,5 +23,15 @@
         "nome": "Pelúcula - Motorola Edge 20",
         "preco": 5.54,
         "quantidade": 55
+    },
+    {
+        "nome": "Vinagre",
+        "preco": 1.44,
+        "quantidade": 13
+    },
+    {
+        "nome": "Agulha De Crochê",
+        "preco": 5.55,
+        "quantidade": 26
     }
 ]
