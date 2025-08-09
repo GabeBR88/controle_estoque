@@ -1,6 +1,7 @@
 import json
 from typing import Any
 
+
 def salvar_json(arquivo: str, dados: Any) -> None:
     """Salva os dados em um arquivo JSON."""
     with open(arquivo, "w", encoding='utf-8') as f:
