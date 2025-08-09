@@ -1,6 +1,5 @@
 from utils import carregar_json, salvar_json
 from pathlib import Path
-import json
 from produto import Produto
 
 path = Path(r"E:\Workspace\Um treino por dia\AGOSTO\Projeto1\controle_estoque\data\estoque.json")
