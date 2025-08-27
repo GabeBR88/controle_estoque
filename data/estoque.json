@@ -6,8 +6,8 @@
     },
     {
         "nome": "Tomate",
-        "preco": 3.5,
-        "quantidade": 154
+        "preco": 6.0,
+        "quantidade": 100
     },
     {
         "nome": "Manjericão",
@@ -26,8 +26,8 @@
     },
     {
         "nome": "Vinagre",
-        "preco": 1.44,
-        "quantidade": 13
+        "preco": 3.75,
+        "quantidade": 123
     },
     {
         "nome": "Agulha De Crochê",

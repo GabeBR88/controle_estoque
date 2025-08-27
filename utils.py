@@ -14,4 +14,4 @@ def carregar_json(arquivo: str) -> Any:
         with open(arquivo, 'r', encoding='utf-8') as f:
             return json.load(f)
     except (FileNotFoundError, json.JSONDecodeError):
-        return []  # ← aqui está o segredo!
+        return []  

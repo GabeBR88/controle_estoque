@@ -31,7 +31,7 @@ def rodar_app():
 
 
     # Frame para organizar tudo com grid
-    label_titul = ctk.CTkLabel(master=tabs.tab("Cadastrar Produtos"), text="PREENCHA OS DADOS ABAIXO", font=("bold", 15)).pack()
+    label_titulo = ctk.CTkLabel(master=tabs.tab("Cadastrar Produtos"), text="PREENCHA OS DADOS ABAIXO", font=("bold", 15)).pack()
     form_frame = ctk.CTkFrame(master=aba_cadastrar, fg_color="transparent")
     form_frame.pack(pady=30)
 
